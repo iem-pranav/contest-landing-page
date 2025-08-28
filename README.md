@@ -8,12 +8,7 @@ The DSA Arena - Contest Hub
 
 A modern, professional, and academic archive for programming contests. This static website is built with vanilla HTML, CSS, and JavaScript, designed to be a simple yet powerful hub for students to access coding challenges curated by their teacher.
 
-➡️ View Live Demo ([<- Replace with your actual GitHub Pages link](https://iem-pranav.github.io/contest-landing-page/))
-
-🎬 Website in Action
-A quick look at the core features, including the theme toggle, live search, and the automatic solution unlock.
-
-(Tip: You can create a GIF of your own screen using a free tool like ScreenToGif and upload it to your repository.)
+➡️ View Live Demo (https://iem-pranav.github.io/contest-landing-page/)
 
 ✨ Core Features
 🚀 Dynamic Contest Cards: All contest data is loaded dynamically from separate JavaScript files, making updates incredibly simple.
@@ -39,20 +34,6 @@ The project is intentionally kept simple and is organized into the following fil
 ├── 📄 index.html          # Main HTML structure
 ├── 📄 script.js           # All application logic
 └── 📄 style.css           # All styling and theme rules
-
-🚀 Getting Started
-This is a static website. No complex setup is required.
-
-Clone the repository:
-
-git clone [https://github.com/your-github-username/your-repo-name.git](https://github.com/your-github-username/your-repo-name.git)
-
-Navigate to the directory:
-
-cd your-repo-name
-
-Open index.html in your browser:
-Simply double-click the index.html file, and the website will be running locally.
 
 📝 How to Add a New Contest
 This is the simple manual workflow for the teacher to add a new contest. No coding knowledge is required.
@@ -106,3 +87,6 @@ function solveProblem() {
 
 Step 3: Save and Upload ✅
 Save both files. If you are using GitHub, commit and push the changes. The website will update automatically.
+
+📜 License
+This project is distributed under the MIT License. See LICENSE for more information.
