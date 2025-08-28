@@ -1,14 +1,8 @@
 The DSA Arena - Contest Hub
-<p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/HTML5-E34F26%3Fstyle%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite" alt="HTML5 Badge"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/CSS3-1572B6%3Fstyle%3Dfor-the-badge%26logo%3Dcss3%26logoColor%3Dwhite" alt="CSS3 Badge"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack" alt="JavaScript Badge"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-yellow.svg%3Fstyle%3Dfor-the-badge" alt="License: MIT"/>
-</p>
 
 A modern, professional, and academic archive for programming contests. This static website is built with vanilla HTML, CSS, and JavaScript, designed to be a simple yet powerful hub for students to access coding challenges curated by their teacher.
 
-➡️ View Live Demo[(https://iem-pranav.github.io/contest-landing-page/)]
+➡️ View Live Demo[https://iem-pranav.github.io/contest-landing-page/]
 
 ✨ Core Features
 🚀 Dynamic Contest Cards: All contest data is loaded dynamically from separate JavaScript files, making updates incredibly simple.
