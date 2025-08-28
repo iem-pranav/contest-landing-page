@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The DSA Arena - Contest Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">The DSA Arena</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#latest-contest">Latest Contest</a></li>
+                <li><a href="#all-contests">All Contests</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" title="Toggle theme">
+                <span class="sun">☀️</span>
+                <span class="moon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ========= Hero Section ========= -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-tagline">Code. Compete. Conquer.</h1>
+                <p class="hero-intro">An energized, professional, and academic archive for programming contests. Sharpen your skills and climb the leaderboard.</p>
+            </div>
+        </section>
+
+        <!-- ========= Latest Contest Section (Conditional) ========= -->
+        <section id="latest-contest" class="latest-contest-section hidden">
+            <h2><span class="live-badge">LIVE NOW</span> Latest Challenge</h2>
+            <div id="latest-contest-container" class="contest-grid">
+                <!-- Latest contest card will be injected here by JS -->
+            </div>
+        </section>
+
+        <!-- ========= All Contests Section ========= -->
+        <section id="all-contests" class="all-contests-section">
+            <h2>All Contests</h2>
+            <div class="controls-bar">
+                <input type="text" id="search-bar" placeholder="Search contests by title...">
+                <div id="filter-buttons" class="filter-buttons">
+                    <!-- Filter buttons will be injected here by JS -->
+                </div>
+            </div>
+            <div id="contest-grid" class="contest-grid">
+                <!-- Contest cards will be injected here by JS -->
+            </div>
+        </section>
+
+        <!-- ========= About Section ========= -->
+        <section id="about" class="about-section">
+            <h2>About The Arena</h2>
+            <p>The DSA Arena is a dedicated platform for students to practice and compete in data structures and algorithms challenges. Curated by our expert instructors, each contest is designed to test your problem-solving abilities and prepare you for technical interviews and competitive programming events.</p>
+        </section>
+    </main>
+
+    <!-- ========= Solution Modal ========= -->
+    <div id="solution-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="modal-close-btn" class="modal-close">&times;</button>
+            <h3>Solution Code</h3>
+            <pre><code id="solution-code-block" class="language-python"></code></pre>
+        </div>
+    </div>
+
+    <footer class="site-footer-main">
+        <p>&copy; 2025 The DSA Arena. All Rights Reserved.</p>
+        <p>Crafted for academic excellence and competitive spirit.</p>
+    </footer>
+
+    <!-- Main script, now a module to support imports -->
+    <script type="module" src="scripts/scripts.js"></script>
+</body>
+</html>
