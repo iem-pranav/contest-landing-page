@@ -1,8 +1,9 @@
 The DSA Arena - Contest Hub
-
 A modern, professional, and academic archive for programming contests. This static website is built with vanilla HTML, CSS, and JavaScript, designed to be a simple yet powerful hub for students to access coding challenges curated by their teacher.
 
-➡️ View Live Demo[https://iem-pranav.github.io/contest-landing-page/]
+➡️ View Live Demo
+(https://iem-pranav.github.io/contest-landing-page/)
+
 
 ✨ Core Features
 🚀 Dynamic Contest Cards: All contest data is loaded dynamically from separate JavaScript files, making updates incredibly simple.
@@ -23,11 +24,20 @@ A modern, professional, and academic archive for programming contests. This stat
 The project is intentionally kept simple and is organized into the following files for easy management:
 
 .
-├── 📁 contests.js         # <-- Teacher edits this: Contest details
-├── 📁 solutions.js        # <-- Teacher edits this: Solution code
-├── 📄 index.html          # Main HTML structure
-├── 📄 script.js           # All application logic
-└── 📄 style.css           # All styling and theme rules
+
+├── 📄 index.html                      # Main HTML structure
+
+├── 📁 scripts 
+
+├────📄 contests.js                     # <-- Teacher edits this: Contest details
+
+├──── 📄 solutions.js                    # <-- Teacher edits this: Solution code
+
+├──── 📄 script.js                       # All application logic
+
+├── 📁 styles 
+
+└──── 📄 style.css                       # All styling and theme rules
 
 📝 How to Add a New Contest
 This is the simple manual workflow for the teacher to add a new contest. No coding knowledge is required.
